@@ -1,4 +1,4 @@
-JsControl
+SpamJS-Controller
 =========
 ManiaPlanet XML-RPC (Server controller) in Node.JS for both TrackMania 2 and ShootMania.
 
@@ -23,5 +23,4 @@ Dependencies
 
 Contributions
 =========
-Thanks to [friedr1c3](https://github.com/friedr1c3) for inspiration and several code snippets for the core.
-More contributions and support is always wanted :).
+Based on original [JsControl](https://github.com/MiniGod/JsControl) by [MiniGod](https://github.com/MiniGod)
