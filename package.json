@@ -1,13 +1,13 @@
 {
-  "name": "JsControl",
+  "name": "SpamJSController",
   "description": "ManiaPlanet XML-RPC (Server controller) in Node.JS",
   "version": "0.0.1",
-  "author": "Tgys",
+  "author": "marc-brgs",
   "dependencies": {
     "gbxremote": "0.1.x",
     "mysql": "2.0.0-alpha3"
   },
   "main": "./controller/controller.js",
-  "keywords": ["nadeo", "maniaplanet", "jscontrol", "controller", "trackmania", "shootmania", "questmania"],
-  "repository": "http://github.com/Tgys/JsControl"
+  "keywords": ["nadeo", "maniaplanet", "spamjs", "controller", "trackmania"],
+  "repository": "https://github.com/marc-brgs/SpamJS-Controller"
 }
