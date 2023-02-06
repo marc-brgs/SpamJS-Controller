@@ -22,8 +22,16 @@ function endMatch(core, params) {
 }
 
 function getMxData(core, uid) {
-	var client = http.createClient(80, 'api.mania-exchange.com');
-	var request = client.request("GET", '/tm/tracks/'+uid, {'user-agent': 'NodeJS XMLRPC', 'Content-Type': 'application/json'});
+	// Deprecated and replaced
+	// var client = http.createClient(80, 'api.mania-exchange.com');
+	// var request = client.request("GET", '/tm/tracks/'+uid, {'user-agent': 'NodeJS XMLRPC', 'Content-Type': 'application/json'});
+	var request = http.request({
+		port: 80,
+		host: 'api.mania-exchange.com',
+		method: 'GET',
+		path: '/tm/tracks/'+uid
+	});
+	
 	request.addListener('response', function (response) {
 	    response.setEncoding('binary') 
 	    var body = '';
